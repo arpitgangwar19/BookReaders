@@ -1,0 +1,51 @@
+datadumb.location:
+      authors:  C:\Users\Arpit\Documents\workspace-sts-3.9.12.RELEASE\BookReader\src\main\resources\test-authors.txt
+      works: C:\Users\Arpit\Documents\workspace-sts-3.9.12.RELEASE\BookReader\src\main\resources\test-works.txt
+
+spring:
+
+
+
+  data:
+    cassandra:
+      keyspace-name: main
+      username: jkBcUJZSXdPmKDrYPStSKWHp
+      password: W5A2W8YJbQ-+,zgOSAOYrWI8UZ2GEiNsxW_jj2oM7syYFtvC6Md_PyCNj.jU5dalu3v-ndiO9Xas0XmJ2KHOmeiJNSOWJHEr4llOE_XGK96CKiv.fKcPmI2Ygde4zqKY
+      schema-action: create-if-not-exists
+      request:
+        timeout: 10s
+      connection:
+        connection-timeout: 10s
+        init-query-timeout: 10s
+  main:
+    allow-circular-references: true
+  
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: Iv1.60a718671ef2e07b
+            client-secret: bca4f781b462f60fbac04626dcb430e7308cab05
+                 
+       
+datastax.astra:
+  secure-connect-bundle: secure-connect-bookreader.zip
+  
+  
+astra.db:
+    id: 68381bc3-fa5e-4329-8a24-013cf1546c06-1
+    region: asia-south1  
+    keyspace: main
+    application.token: AstraCS:jkBcUJZSXdPmKDrYPStSKWHp:841c6929a3096adf8c20682ee8c3e29275d7a742919f0e222715c7bf3f05be95
+          
+          
+          
+      
+      
+      
+      
+      
+      
+      
+      
