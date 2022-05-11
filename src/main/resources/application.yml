@@ -9,8 +9,8 @@ spring:
   data:
     cassandra:
       keyspace-name: main
-      username: jkBcUJZSXdPmKDrYPStSKWHp
-      password: W5A2W8YJbQ-+,zgOSAOYrWI8UZ2GEiNsxW_jj2oM7syYFtvC6Md_PyCNj.jU5dalu3v-ndiO9Xas0XmJ2KHOmeiJNSOWJHEr4llOE_XGK96CKiv.fKcPmI2Ygde4zqKY
+      username: 
+      password: 
       schema-action: create-if-not-exists
       request:
         timeout: 10s
